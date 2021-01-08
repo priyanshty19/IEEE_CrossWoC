@@ -21,9 +21,9 @@ File list:
     --card-col: #cbe1ff;
     --card-col-mech: #f59796;
     --bg-col: #f5f5f5;
-    --bg-about-us: #ff6661;
-    --bg-contact-us: #dcc5f1;
-    --bg-sponsor: #d6ece1;
+    --bg-about-us: #0fa2e4;
+    --bg-contact-us: rgb(15,162,228);
+    --bg-sponsor: rgb(15,162,228);
     --bg-sponsor-mech: #7DDF64;
     --bg-about-us-mech: #CDEDF6;
 }
@@ -53,7 +53,7 @@ link {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
-    background-color: #3770FF;
+    background-color: #fe654f;
     border-radius: 10px;
     border: none;
     color: #FFFFFF;
@@ -291,7 +291,7 @@ a {
     display: block;
     border: 0;
     border-radius: 10px;
-    border: 2px solid var(--btn-col);
+    border: 2px solid var(--text-col);
     padding: 1rem 1rem;
     width: 200px;
     margin: 10px;
@@ -304,7 +304,7 @@ a {
     -webkit-appearance: none;
     -moz-appearance: none;
     background-color: transparent;
-    color: var(--btn-col);
+    color: var(--text-col);
 }
 
 .dir-btn:hover {
@@ -917,7 +917,7 @@ title {
 }
 
 .timeline .schedule-list .list-element .time {
-    color: var(--btn-col)
+    color: var(--text-col)
 }
 
 .timeline .schedule-list .list-element .text {
